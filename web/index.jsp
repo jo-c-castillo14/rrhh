@@ -6,29 +6,24 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
     </head>
+    <a href="login.jsp" target="_blank">login</a>
     <body>
-        <div>
-            <a  href="Controlador?accion=listar">Listar Persona</a>
-        </div>
-        <div>
-            <a href="Controlador?accion=MosEmpleados">Empleados </a>
-        </div>
-        <div>
-            <a  href="Controlador?accion=listarCargo">Listar cargo</a>
-        </div>
-        <a href="Controlador?accion=addCargo">Nuevo Cargo</a>
-         <div>
-            <a  href="Controlador?accion=MosEmpleados">empleados</a>
-        </div>
-         <div>
-            <a  href="Controlador?accion=MostrarDepartamento">departamentos ver</a>
-        </div>
-         <div>
-            <a  href="Controlador?accion=addDepartamento">crerar Departamento</a>
-        </div>
-         <div>
-            <a  href="Controlador?accion=Contratos">mostara contrats</a>
-        </div>
+        
+       
     </body>
 </html>

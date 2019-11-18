@@ -2,6 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/departamentos/listarDepartamento.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/vistas/add.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/menu.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/departamentos/addDepartamento.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/empleados/listarEmpleado.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/cargos/listarCargo.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/vistas/edit.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/vistaPersona.jsp</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/src/java/controlador/Controlador.java</file>
+            <file>file:/C:/Users/Joc/Documents/MVC_DAO_MYSQL/web/vistas/listar.jsp</file>
+        </group>
     </open-files>
 </project-private>

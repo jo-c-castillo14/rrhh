@@ -7,10 +7,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <title>JSP Page</title>
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <title>Login</title>
+      <style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
     </head>
+     
     <body>
     <center><br><br><br><br><br><br><br> 
         <h1>Formulario de Acceso</h1>
@@ -19,6 +32,7 @@
             <input type="text" name="txtUsuario" value="" size="30" placeholder="Usuario...."/><br>
             <input type="password" name="txtContra" value="" size="30" placeholder="Contraseña..." />
             <br><br>
+            
             <input type="submit" value="Iniciar Sesion" name="btnIniciar" />
             <input type="submit" value="Cancelar" name="btnCancelar" />
             
@@ -43,7 +57,7 @@
                     }
                     sesion.setAttribute("usuario", nombrecompleto);
                     sesion.setAttribute("nivel",nivel);
-                    response.sendRedirect("index.jsp"); 
+                    response.sendRedirect("menu.jsp"); 
                 }
                 if(request.getParameter("cerrar")!=null){
                     sesion.invalidate();

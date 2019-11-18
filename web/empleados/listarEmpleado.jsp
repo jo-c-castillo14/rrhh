@@ -15,22 +15,52 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Personas</title>
+        <style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+</style>
+        <style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
     </head>
     <body>
         <h1>Personas</h1>
-        <a href="Controlador?accion=add"> Agregar Nuevo</a>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Codigo empleado</th>
+
+            
+                    <div style="overflow-x:auto;">
+  <table>
+      <thead>
+    <tr>
+     <th>Codigo empleado</th>
                     <th>Nombre empresa</th>
                     <th>codigo departamento</th>
                      <th>codigo  cargo</th>
                      <th>Horas trabajadas</th>
                     <th>sueldo</th>
                     <th>ACCIONES</th>
-                </tr>
+    </tr>
+                    
                 <%
                     EmpleadosDAO dao = new EmpleadosDAO();
                     List<Empleados> list = dao.listarEmpleado();
@@ -65,6 +95,6 @@
                 </tr>
             </tbody>
         </table>
-
+<a href="Controlador?accion=add" target="_blank">Agregar Empleado</a>
     </body>
 </html>
